@@ -16,6 +16,10 @@ app.get("/calculate", (req, res) => {
     res.send("Your GPA: " + gpa)
 })
 
-app.listen(3000, () => {
-    console.log("Server running on " + 3000)
+app.get("/", (req, res) => {
+	res.send("App Working")
+})
+
+app.listen(80, () => {
+    console.log("Server running on " + 80)
 })
