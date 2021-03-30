@@ -17,7 +17,7 @@ app.get("/calculate", (req, res) => {
 })
 
 app.get("/", (req, res) => {
-	res.send("App Working")
+	res.send("App Is Working")
 })
 const port = process.env.PORT || 80
 app.listen(port, () => {
